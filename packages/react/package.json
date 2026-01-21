@@ -1,6 +1,6 @@
 {
   "name": "react-simple-phone-input",
-  "version": "5.2.5",
+  "version": "6.0.0",
   "description": "A simple react phone input component with calling code dropdown🤷",
   "homepage": "https://react-phone-input.siamahnaf.com/",
   "main": "dist/index.js",
@@ -22,7 +22,21 @@
   },
   "license": "MIT",
   "keywords": [
-    "ritext"
+    "react-simple-phone-input",
+    "react",
+    "phone",
+    "format",
+    "react-number-input",
+    "i18",
+    "dial code",
+    "calling code",
+    "dropdown",
+    "telephone",
+    "mobile",
+    "react-dom",
+    "international",
+    "phone-dropdown",
+    "dial code dropdown"
   ],
   "repository": {
     "type": "git",

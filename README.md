@@ -35,7 +35,7 @@ import "react-simple-phone-input/dist/index.css";
     onChange={(data: PhoneInputResponseType) => console.log(data)}
 />
 ```
-#### [See Demo](https://react-simple-phone-input.vercel.app/)
+#### [See Demo](https://react-phone-input.siamahnaf.com/)
 
 ## Options
 <table width="100%">
@@ -157,7 +157,7 @@ import "react-simple-phone-input/dist/index.css";
   <tr>
     <td> dialCodeInputField </td>
     <td> false </td>
-    <td> Show calling code into into field or show beside country flag. For more, see <a href="https://react-simple-phone-input.vercel.app/">example</a> </td>
+    <td> Show calling code into into field or show beside country flag. For more, see <a href="https://react-phone-input.siamahnaf.com/">example</a> </td>
   </tr>
   <tr>
     <td> search </td>

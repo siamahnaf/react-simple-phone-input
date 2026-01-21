@@ -1,55 +1,24 @@
 {
   "name": "react-simple-phone-input",
-  "version": "4.6.7",
-  "description": "A simple react phone input component with calling code dropdown🤷",
+  "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types",
+    "md": "tsx scripts/create-md.ts",
+    "move": "tsx scripts/changelog.ts packages/ritext",
+    "pub": "changeset && pnpm run md && turbo run build --filter=./packages/ritext && changeset version && pnpm run move && changeset publish"
   },
-  "author": {
-    "name": "Siam Ahnaf",
-    "email": "mail@siamahnaf.com",
-    "url": "https://www.siamahnaf.com"
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "prettier": "^3.7.4",
+    "turbo": "^2.7.5",
+    "typescript": "5.9.2"
   },
-  "license": "MIT",
-  "keywords": [
-    "react-simple-phone-input",
-    "react",
-    "phone",
-    "format",
-    "react-number-input",
-    "i18",
-    "dial code",
-    "calling code",
-    "dropdown",
-    "telephone",
-    "mobile",
-    "react-dom",
-    "international",
-    "phone-dropdown",
-    "dial code dropdown"
-  ],
-  "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/server": "^11.10.0",
-    "@emotion/styled": "^11.10.5",
-    "@iconify/react": "^4.0.1",
-    "@mui/material": "^5.11.0",
-    "@next/font": "^13.0.6",
-    "@types/node": "18.11.15",
-    "@types/react": "18.0.26",
-    "@types/react-dom": "18.0.9",
-    "@types/react-syntax-highlighter": "^15.5.5",
-    "eslint": "8.29.0",
-    "eslint-config-next": "13.0.6",
-    "next": "13.0.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-github-corner": "^2.5.0",
-    "react-simple-phone-input": "^5.0.0",
-    "react-syntax-highlighter": "^15.5.0",
-    "typescript": "4.9.4"
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=18"
   }
 }

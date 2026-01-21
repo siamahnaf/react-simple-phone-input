@@ -9,11 +9,7 @@ React Simple Phone Input
 
 A simple and customizable react phone number dropdown component. It can mix up with your designed theme and give a fluent vibe able dropdown area in your next project.
 
-[![npm version](https://cdn.jsdelivr.net/gh/siamahnaf198/react-simple-phone-input@main/assets/npm-version.svg)](https://www.npmjs.com/package/react-simple-phone-input)
-[![npm downloads](https://cdn.jsdelivr.net/gh/siamahnaf198/react-simple-phone-input@main/assets/downloads.svg)](https://www.npmjs.com/package/react-simple-phone-input)
-[![PRs Welcome](https://cdn.jsdelivr.net/gh/siamahnaf198/react-simple-phone-input@main/assets/prs-welcome.svg)](https://github.com/siamahnaf198/react-simple-phone-input)
-[![MIT licensed](https://cdn.jsdelivr.net/gh/siamahnaf198/react-simple-phone-input@main/assets/license.svg)](https://github.com/siamahnaf198/react-simple-phone-input/blob/main/LICENSE)
-
+## Features
 - SSR Friendly
 - Customizable
 - Multi Design
@@ -24,14 +20,14 @@ A simple and customizable react phone number dropdown component. It can mix up w
 ## Installation
 
 ```shell-script
-$ npm i react-simple-phone-input --save
+$ pnpm i react-simple-phone-input
 ```
 
 ## Usage
 
 ```jsx
 import { PhoneInput, PhoneInputResponseType } from "react-simple-phone-input";
-import "react-simple-phone-input/dist/style.css";
+import "react-simple-phone-input/dist/index.css";
 
 <PhoneInput
     country="US"
@@ -307,11 +303,7 @@ import "react-simple-phone-input/dist/style.css";
   </tr>
 </table>
 
-`note:` version 5 released. see the [changelogs](https://github.com/siamahnaf198/react-simple-phone-input/releases/tag/v5.0.0)
-
-## Contributing
-- Code style changes not allowed
-- Do not create issues about incorrect or missing country data
+`note:` version 6 released. see the [changelogs](https://github.com/siamahnaf198/react-simple-phone-input/releases/tag/v6.0.0)
 
 ## Issues or correction
 If you face any issues, missing data or wrong data about country, you are welcome to create an issue.

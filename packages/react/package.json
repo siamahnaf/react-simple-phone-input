@@ -1,0 +1,49 @@
+{
+  "name": "react-simple-phone-input",
+  "version": "5.2.5",
+  "description": "A simple react phone input component with calling code dropdown🤷",
+  "homepage": "https://react-phone-input.siamahnaf.com/",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "check-types": "tsc --noEmit",
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "author": {
+    "name": "Siam Ahnaf",
+    "email": "mail@siamahnaf.com",
+    "url": "https://www.siamahnaf.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ritext"
+  ],
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/siamahnaf/react-simple-phone-input",
+    "url": "https://github.com/siamahnaf/react-simple-phone-input"
+  },
+  "peerDependencies": {
+    "react": "^19",
+    "react-dom": "^19"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^25.0.9",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8.5.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^4.1.18",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}

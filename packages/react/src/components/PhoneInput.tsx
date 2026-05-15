@@ -167,7 +167,7 @@ const PhoneInput = ({ placeholder, country, onChange, value, iconComponent, inpu
             if (e.key === "Escape") {
                 setDropdown(false);
             }
-            if (e.key === "Enter" && cursor >= 0) {
+            if (e.key === "Enter" && cursor >= 0 && countryDataInfo[cursor]) {
                 setSelected(countryDataInfo[cursor]);
                 setDropdown(false)
             }

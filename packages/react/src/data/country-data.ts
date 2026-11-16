@@ -5,6 +5,11 @@ export const countryData = [
         callingCode: "+93"
     },
     {
+        country: "Åland Islands",
+        countryCode: "AX",
+        callingCode: "+358"
+    },
+    {
         country: "Albania",
         countryCode: "AL",
         callingCode: "+355"
@@ -200,6 +205,11 @@ export const countryData = [
         callingCode: "+238"
     },
     {
+        country: "Caribbean Netherlands",
+        countryCode: "BQ",
+        callingCode: "+599"
+    },
+    {
         country: "Cayman Islands",
         countryCode: "KY",
         callingCode: "+1345"
@@ -263,6 +273,11 @@ export const countryData = [
         country: "Cuba",
         countryCode: "CU",
         callingCode: "+53"
+    },
+    {
+        country: "Curaçao",
+        countryCode: "CW",
+        callingCode: "+599"
     },
     {
         country: "Cyprus",
@@ -422,7 +437,7 @@ export const countryData = [
     {
         country: "Grenada",
         countryCode: "GD",
-        callingCode: "+473"
+        callingCode: "+1473"
     },
     {
         country: "Guadeloupe",
@@ -438,6 +453,11 @@ export const countryData = [
         country: "Guatemala",
         countryCode: "GT",
         callingCode: "+502"
+    },
+    {
+        country: "Guernsey",
+        countryCode: "GG",
+        callingCode: "+44"
     },
     {
         country: "Guinea",
@@ -505,6 +525,11 @@ export const countryData = [
         callingCode: "+353"
     },
     {
+        country: "Isle of Man",
+        countryCode: "IM",
+        callingCode: "+44"
+    },
+    {
         country: "Israel",
         countryCode: "IL",
         callingCode: "+972"
@@ -530,6 +555,11 @@ export const countryData = [
         callingCode: "+81"
     },
     {
+        country: "Jersey",
+        countryCode: "JE",
+        callingCode: "+44"
+    },
+    {
         country: "Jordan",
         countryCode: "JO",
         callingCode: "+962"
@@ -548,6 +578,11 @@ export const countryData = [
         country: "Kiribati",
         countryCode: "KI",
         callingCode: "+686"
+    },
+    {
+        country: "Kosovo",
+        countryCode: "XK",
+        callingCode: "+383"
     },
     {
         country: "Kuwait",
@@ -693,6 +728,11 @@ export const countryData = [
         country: "Mongolia",
         countryCode: "MN",
         callingCode: "+976"
+    },
+    {
+        country: "Montenegro",
+        countryCode: "ME",
+        callingCode: "+382"
     },
     {
         country: "Montserrat",
@@ -880,6 +920,11 @@ export const countryData = [
         callingCode: "+250"
     },
     {
+        country: "Saint Barthélemy",
+        countryCode: "BL",
+        callingCode: "+590"
+    },
+    {
         country: "Saint Helena",
         countryCode: "SH",
         callingCode: "+290"
@@ -893,6 +938,11 @@ export const countryData = [
         country: "Saint Lucia",
         countryCode: "LC",
         callingCode: "+1758"
+    },
+    {
+        country: "Saint Martin",
+        countryCode: "MF",
+        callingCode: "+590"
     },
     {
         country: "Saint Pierre and Miquelon",
@@ -930,6 +980,11 @@ export const countryData = [
         callingCode: "+221"
     },
     {
+        country: "Serbia",
+        countryCode: "RS",
+        callingCode: "+381"
+    },
+    {
         country: "Seychelles",
         countryCode: "SC",
         callingCode: "+248"
@@ -943,6 +998,11 @@ export const countryData = [
         country: "Singapore",
         countryCode: "SG",
         callingCode: "+65"
+    },
+    {
+        country: "Sint Maarten",
+        countryCode: "SX",
+        callingCode: "+1721"
     },
     {
         country: "Slovakia",
@@ -978,6 +1038,11 @@ export const countryData = [
         country: "South Korea",
         countryCode: "KR",
         callingCode: "+82"
+    },
+    {
+        country: "South Sudan",
+        countryCode: "SS",
+        callingCode: "+211"
     },
     {
         country: "Spain",

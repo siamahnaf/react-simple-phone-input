@@ -7,9 +7,12 @@ export interface CountryDataTypes {
     callingCode: string;
 }
 //Get default country function
-export const getDefaultCountry = (code: string) => {
-    const result = countryData.find((item) => item.countryCode === code);
-    return result
+export const getDefaultCountry = (code: string): CountryDataTypes => {
+    const normalized = code?.toUpperCase();
+    const result = countryData.find((item) => item.countryCode === normalized);
+    if (result) return result;
+    console.warn(`[react-simple-phone-input] Unknown country code "${code}", falling back to "US".`);
+    return countryData.find((item) => item.countryCode === "US") as CountryDataTypes;
 }
 //Get country data by search
 export const getBySearch = (search: string, onlyCountry?: string[], excludeCountry?: string[]) => {

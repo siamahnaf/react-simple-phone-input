@@ -190,12 +190,12 @@ const PhoneInput = ({ placeholder, country, onChange, value, iconComponent, inpu
 
     //---Dial Code Field Effect//
     React.useMemo(() => {
+        const defaultCountry = getDefaultCountry(country);
         if (dialCodeInputField) {
-            const result = inputValue?.replace(selected.callingCode, (getDefaultCountry(country) as SelectedTypes).callingCode);
-            console.log(result)
-            setInputValue(result.length > 0 ? result : (getDefaultCountry(country) as SelectedTypes).callingCode);
+            const result = selected.callingCode ? inputValue.replace(selected.callingCode, defaultCountry.callingCode) : inputValue;
+            setInputValue(result.length > 0 ? result : defaultCountry.callingCode);
         }
-        setSelected(getDefaultCountry(country) as SelectedTypes)
+        setSelected(defaultCountry)
     }, [country, dialCodeInputField])
 
     //---Country search hook//
